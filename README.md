@@ -16,12 +16,12 @@ This dataset provides information about the telecommunication activity over the 
  
 # Anomaly Detection Methods: 
 The outlairs and anomaly detection different methods:
- - 1- Tukey’s box plot method.[here]
+ - 1- Tukey’s box plot method.
  - 2- Isolation forest.
  - 3- Anomaly Detection with LSTM Autoencoders.
  - 4- Seasonal-Trend Decomposition.
 
-## 1- Tukey’s box plot method(#here)
+## 1- Tukey’s box plot method
 ![Image](Outputs/Tukeys-Box-plot-method/Tukey’s box.jpg)
 
 in this method we depend on the pox plot to determine if the point is outlier or not and not 
@@ -91,3 +91,43 @@ When we apply the threshold to the predicted values which will give us the anoma
 points which corresponding to the locations of the signal which above the threshold line the 
 previous graph, we get the following graph for the anomalies.
 
+ ## 4- Seasonal-Trend Decomposition.
+Now we will go to the final method which is decomposition. Signal decomposition aims to 
+analysis our signal to its main three components Seasonal, trend and the residual (S, T, R). 
+Seasonal is the signal component which contain the most rapidly pattern which occurs regular 
+every cerin time. Trend contain the general shape of the data over the whole dataset and finally 
+the residual is the rest of the signal after extract the seasonal and trend of it, it is in somehow a 
+random part over the signal which indicate it.
+
+![Image]('Outputs/Decomposition-Method/Seasonal-Trend Decomposition.png')
+
+To make the residual more obvious to us we will plot the signal with and without the residual 
+component as the following: 
+
+![Image](Outputs/Decomposition-Method/trend+seasonal-vs-grid-plot.png)
+
+The residual will be our focus here, we will first analysis the signal to its main three component 
+and take the residual to work on it. 
+We will apply the model by define the threshold which depend on the he confidence interval, 
+then apply it for the residual then decide if this point is an anomaly or not.
+
+## What is next?
+After determining the anomalies points what we should do about them? In the most common 
+application like Microsoft anomaly detection, they have some web application to send some 
+emails to the concerned persons about the sudden and didn’t expected change, then they take 
+the right decision to solve this issue. 
+
+But in our scope here we concerned with if this point is outlier or point of interest. 
+
+![Image](Outputs/Time-series-outliers.png)
+
+So, if the point we detected as outlier is a data that we did not need we will do on it some 
+cleaning data processing. But in the other hand some time did not mean if there is some 
+unusual event that we didn’t need it. Some event most be important to us because might this 
+event will happen in the future so by studying it will make us have the ability to avoid this 
+sudden change in the future by handle it by some control flow process. 
+Here we after studying those points we will make all anomalies point as a nan value so will 
+handle it in the coming part, Missing value imputation. 
+
+
+[Anomaly Detection Methods.pdf](https://github.com/abdallah-elsawy/Time-Series-Anomaly-Detection/files/8120649/Anomaly.Detection.Methods.pdf)
