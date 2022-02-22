@@ -16,12 +16,12 @@ This dataset provides information about the telecommunication activity over the 
  
 # Anomaly Detection Methods: 
 The outlairs and anomaly detection different methods:
- - 1- Tukey’s box plot method.[here](myLib/README.md)
+ - 1- [Tukey’s box plot method.][here]
  - 2- Isolation forest.
  - 3- Anomaly Detection with LSTM Autoencoders.
  - 4- Seasonal-Trend Decomposition.
 
-## 1- Tukey’s box plot method
+[## 1- Tukey’s box plot method](#here)
 ![Image](Outputs/Tukeys-Box-plot-method/Tukey’s box.jpg)
 
 in this method we depend on the pox plot to determine if the point is outlier or not and not 
