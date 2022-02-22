@@ -99,7 +99,7 @@ every cerin time. Trend contain the general shape of the data over the whole dat
 the residual is the rest of the signal after extract the seasonal and trend of it, it is in somehow a 
 random part over the signal which indicate it.
 
-![Image]('Outputs/Decomposition-Method/Seasonal-Trend Decomposition.png')
+![Image](Outputs/Decomposition-Method/Seasonal-Trend-Decomposition.png)
 
 To make the residual more obvious to us we will plot the signal with and without the residual 
 component as the following: 
@@ -129,5 +129,3 @@ sudden change in the future by handle it by some control flow process.
 Here we after studying those points we will make all anomalies point as a nan value so will 
 handle it in the coming part, Missing value imputation. 
 
-
-[Anomaly Detection Methods.pdf](https://github.com/abdallah-elsawy/Time-Series-Anomaly-Detection/files/8120649/Anomaly.Detection.Methods.pdf)
