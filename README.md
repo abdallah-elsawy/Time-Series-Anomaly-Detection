@@ -72,7 +72,7 @@ Long Short-Term Memory (LSTM) is a type of artificial recurrent neural network (
 are designed to handle sequential data, with the previous step's output being fed as the current 
 step's input. 
 
-![Image](Outputs/LSTM Autoencoders/Anomaly-detection-autoencoders.png)
+![Image](Outputs/LSTM-Autoencoders/Anomaly-detection-autoencoders.png)
 
 We apply some dimensionality reduction on our dataset by use encoder to make the dimension 
 small then use the decoder to get it back and that minimize the reconstruction loss. In fact, that 
