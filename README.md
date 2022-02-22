@@ -85,7 +85,7 @@ To determine the cutoff point we use the Mean Absolute Error (MAE). We use the M
 because it so sensitive toward outliers. MAE find the mean absolute error between the actual 
 value 𝑦 and predicted value 𝑦' of the dataset then find the threshold like the following : 
 
-![Image](Outputs/LSTM Autoencoders/threshold.png)
+![Image](Outputs/LSTM-Autoencoders/threshold.png)
 
 When we apply the threshold to the predicted values which will give us the anomalies at the 
 points which corresponding to the locations of the signal which above the threshold line the 
