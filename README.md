@@ -15,7 +15,7 @@ We used many techniques to reach best one to apply it on our way of the project.
  https://www.nature.com/articles/sdata201555
  
 ### Anomaly Detection Methods: 
-- The outlairs and anomaly detection different methods:
+The outlairs and anomaly detection different methods:
  - 1- Tukey’s box plot method
  - 2- Isolation forest
  - 3- Anomaly Detection with LSTM Autoencoders
