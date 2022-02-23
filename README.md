@@ -21,7 +21,8 @@ The outlairs and anomaly detection different methods:
 <li><a href="#m3">3- Anomaly Detection with LSTM Autoencoders</a>
 <li><a href="#m4">4- Seasonal-Trend Decomposition.</a>
 
-## 1- Tukey’s box plot method
+## <h3> 1- Tukey’s box plot method</h3>
+<a id="m1"></a>
 ![Image](Outputs/Tukeys-Box-plot-method/Tukey’s box.jpg)
 
 in this method we depend on the pox plot to determine if the point is outlier or not and not 
@@ -39,7 +40,9 @@ Then decide if the point between the inner fence and outer fence it considered a
 outlier point. And if the point lies outside the outer fence, it will be considered as probable 
 outlier. 
 
-## 2- Isolation forest.
+## <h3> 2- Isolation forest.</h3>
+<a id="m2"></a>
+ 
 In this method we will depend on the detection using some Machine Learning algorithms. In the 
 we will depend on Isolation Forest. 
 
@@ -53,7 +56,8 @@ setting a threshold if the sample we selected is less than this threshold it wil
 branch and if it not it will be in the right branch. This process repeated until we every point in 
 the dataset is isolated. 
 
-## 3- Anomaly Detection with LSTM Autoencoders. 
+## <h3> 3- Anomaly Detection with LSTM Autoencoders. </h3>
+<a id="m3"></a>
 In this method we will depend on the detection using the forecasting by Deep Learning 
 algorithms. In the forecasting methods we depend on predict the next point with the addition 
 of some noise and make comparison of this point and the true point at this timestamp by 
@@ -91,7 +95,9 @@ When we apply the threshold to the predicted values which will give us the anoma
 points which corresponding to the locations of the signal which above the threshold line the 
 previous graph, we get the following graph for the anomalies.
 
- ## 4- Seasonal-Trend Decomposition.
+ ## <h3> 4- Seasonal-Trend Decomposition. </h3>
+<a id="m4"></a>
+ 
 Now we will go to the final method which is decomposition. Signal decomposition aims to 
 analysis our signal to its main three components Seasonal, trend and the residual (S, T, R). 
 Seasonal is the signal component which contain the most rapidly pattern which occurs regular 
