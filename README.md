@@ -6,6 +6,7 @@ Anomaly detection is the process of discover the event or the points which are u
 this position of the dataset or deviates from the normal pattern of the dataset. 
 So, the detection of those points very important; because it give us an early step to make the 
 emergency movements to control that un usual change. 
+
 We used many techniques to reach best one to apply it on our way of the project. 
 
 # Dataset:
